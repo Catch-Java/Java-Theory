@@ -15,7 +15,7 @@ String s = sc.nextLine();</code></pre>
 <pre id="code_1636474769013" class="java" data-ke-language="java" data-ke-type="codeblock"><code>import java.io.IOException;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-
+&nbsp;
 class BufferedReaderEx {
 &nbsp;	public static void main(String[] args) throws IOException {
 &nbsp;		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
