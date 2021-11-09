@@ -21,7 +21,7 @@
 |5|[Queue]()|✖|
 |6|[PriorityQueue](https://github.com/Catch-Java/Java-Theory/blob/main/Theory%20File/Priority%20Queue.md)|✔|
 |7|[Deque]()|✖|
-|8|[Iterator & ListIterator]()|✖|
+|8|[Iterator & ListIterator](https://github.com/Catch-Java/Java-Theory/blob/main/Theory%20File/Iterator%20and%20ListIterator.md)|✔|
 |9|[Comparator & Comparable](https://github.com/Catch-Java/Java-Theory/blob/main/Theory%20File/Comparator%20and%20Comparable.md)|✔|
 
 * * *
