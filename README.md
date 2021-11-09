@@ -8,6 +8,7 @@
 |-----|-----|-----|
 |1|[String Class](https://github.com/Catch-Java/Java-Theory/blob/main/Theory%20File/String.md)|✔|
 |2|[StringBuffer & StringBuilder](https://github.com/Catch-Java/Java-Theory/blob/main/Theory%20File/StringBuffer%20and%20StringBuilder.md)|✔|
+|3|[Scanner & BufferedReader](https://github.com/Catch-Java/Java-Theory/blob/main/Theory%20File/Scanner%20and%20BufferedReader.md)|✔|
 
 * * *
 
