@@ -12,12 +12,12 @@
 }
 
 public interface Collection {
-    ...
-    public Iterator iterator();
-    ...
+&nbsp;    ...
+&nbsp;    public Iterator iterator();
+&nbsp;    ...
 }</code></pre>
 <p data-ke-size="size16">&nbsp;iterator( ) 메서드는 Collection 인터페이스에 정의된 메서드이므로, List와 Set도 포함한다. Collection 클래스에 대해 iterator( )를 호출하여 Iterator를 얻은 다음 반복문, 주로 while문을 사용해서 Collection 클래스의 요소들을 읽어온다.</p>
-<table style="border-collapse: collapse; width: 54.1861%; height: 80px;" border="1" data-ke-align="alignLeft" data-ke-style="style12">
+<table align="center" style="border-collapse: collapse; width: 54.1861%; height: 80px;" border="1" data-ke-align="alignLeft" data-ke-style="style12">
 <tbody>
 <tr style="height: 20px;">
 <td style="width: 34.0067%; height: 20px;">Method</td>
@@ -43,7 +43,7 @@ ArrayList list = new ArrayList();
 Iterator iter = list.iterator();
 
 while(iter.hasNext()){
-	System.out.println(iter.next());
+&nbsp;	System.out.println(iter.next());
 }
 
 // Set
@@ -51,14 +51,14 @@ HashMap map = new HashMap();
 Iterator iter = map.keySet().iterator(); // 또는 entrySet().iterator()
 
 while(iter.hasNext()){
-	String key = iter.next();
-	String value = map.get(key);
-    System.out.println(key + " : " + value);
+&nbsp;	String key = iter.next();
+&nbsp;	String value = map.get(key);
+&nbsp;	System.out.println(key + " : " + value);
 }</code></pre>
 <p data-ke-size="size16">&nbsp;</p>
 <blockquote data-ke-style="style2"><br /><span><b>3.<span>&nbsp;</span><b>ListIterator 생성자</b></b></span></blockquote>
 <p data-ke-size="size16">&nbsp;ListIterator는 Iterator를 상속받아 기능을 추가한 것이다. 컬렉션의 요소에 접근할 때 Iterator는 단 방향으로만 이동할 수 있지만, ListIterator는 양방향으로의 이동이 가능하다. 다만, 이름과 같이 List 인터페이스를 구현한 컬렉션에서만 사용 가능하다.</p>
-<table style="border-collapse: collapse; width: 100%; height: 200px;" border="1" data-ke-align="alignLeft" data-ke-style="style12">
+<table align="center" style="border-collapse: collapse; width: 100%; height: 200px;" border="1" data-ke-align="alignLeft" data-ke-style="style12">
 <tbody>
 <tr style="height: 20px;">
 <td style="width: 28.8372%; height: 20px;">Method</td>
@@ -107,23 +107,23 @@ while(iter.hasNext()){
 <pre id="code_1636436648521" class="java" data-ke-language="java" data-ke-type="codeblock"><code>import java.util.*;
 
 class ListIteratorEx {
-    public static void main(String[] args) {
-        ArrayList arrList = new ArrayList();
-        
-        for(int i=1 ; i&lt;=5 ; i++)
-        	arrList.add(i);
-        
-        ListIterator listIter = arrList.listIterator();
-        
-        // 순방향 출력 &rarr; 12345
-        while(listIter.hasNext())
-        	System.out.print(listIter.next());
-        System.out.println();
-        
-        // 역방향 출력 &rarr; 54321
-        while(listIter.hasPrevious())
-        	System.out.print(listIter.previous());
-    }
+&nbsp;	    public static void main(String[] args) {
+&nbsp;	        ArrayList arrList = new ArrayList();
+&nbsp;		
+&nbsp;		for(int i=1 ; i<=5 ; i++)
+&nbsp;	        	arrList.add(i);
+&nbsp;	        
+&nbsp;	        ListIterator listIter = arrList.listIterator();
+&nbsp;	        
+&nbsp;	        // 순방향 출력 → 12345
+&nbsp;	        while(listIter.hasNext())
+&nbsp;	        	System.out.print(listIter.next());
+&nbsp;	        System.out.println();
+&nbsp;	        
+&nbsp;	        // 역방향 출력 → 54321
+&nbsp;	        while(listIter.hasPrevious())
+&nbsp;	        	System.out.print(listIter.previous());
+&nbsp;	    }
 }</code></pre>
 <p data-ke-size="size16">(c)를 현재 위치라고 생각하고 설명해보겠다. <b>(1. 순방향, 2. 역방향)</b></p>
 <p data-ke-size="size16"><b>1-1. <span style="color: #006dd7;">(c)</span> 1&nbsp; 2&nbsp; 3&nbsp; 4&nbsp; 5</b></p>
