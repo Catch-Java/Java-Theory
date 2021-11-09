@@ -3,7 +3,7 @@
 <p data-ke-size="size16">&nbsp;</p>
 <p data-ke-size="size16">&nbsp;또 Scanner는 기존의 방식과 다르게 nextLine( ) 대신 nextInt( ), nextLong( ) 등과 같은 타입별 메서드를 가지고 있다. 따라서 입력 받은 문자를 다시 원하는 타입으로 변환하는 수고를 덜어 준다.</p>
 <pre id="code_1636474294193" class="java" data-ke-language="java" data-ke-type="codeblock"><code>Scanner sc = new Scanner(System.in);
-
+&nbsp;
 int i = sc.nextInt();
 boolean b = sc.nextBoolean();
 String s = sc.nextLine();</code></pre>
@@ -17,12 +17,12 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 class BufferedReaderEx {
-	public static void main(String[] args) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        
-		String s = br.readLine();
-		int i = Integer.parseInt(br.readLine);
-	}
+&nbsp;	public static void main(String[] args) throws IOException {
+&nbsp;		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+&nbsp;        
+&nbsp;		String s = br.readLine();
+&nbsp;		int i = Integer.parseInt(br.readLine);
+&nbsp;	}
 }</code></pre>
 <p data-ke-size="size16">&nbsp;먼저 위의 패키지를 import 해줘야 한다. 굳이 외울 필요 없이 Ctrl+Shift+o를 눌러주면 Eclipse에서 자동으로 import 해주지만, 코딩 테스트를 준비한다면 외워두는 것을 권장한다.</p>
 <p data-ke-size="size16">&nbsp;</p>
@@ -32,11 +32,11 @@ class BufferedReaderEx {
 <p data-ke-size="size16">&nbsp;</p>
 <p data-ke-size="size16">&nbsp;</p>
 <pre id="code_1636474935266" class="java" data-ke-language="java" data-ke-type="codeblock"><code>BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
+&nbsp;
 StringTokenizer st = new StringTokenizer(br.readLine(), " ");
 int n = Integer.parseInt(st.nextToken());
 int m = Integer.parseInt(st.nextToken());
-
+&nbsp;
 int[] arr = br.readLine().split(" ");</code></pre>
 <p data-ke-size="size16">&nbsp;앞서 말했듯이 BufferedReader의 readLine( ) 메서드는 데이터를 라인 단위로 읽는다. 만약 공백 단위로 데이터를 가공하려면 위와 같은 방법을 사용하면 된다. 첫 번째 방법은 StringTokenizer를 활용하는 방법이고, 두 번째 방법은 split을 활용하는 방법이다. (StringTokenizer에 대해서는 나중에 다시 다루겠다.)</p>
 <p data-ke-size="size16">&nbsp;</p>
