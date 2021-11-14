@@ -31,4 +31,4 @@
 |Index|Topic|Check|
 |-----|-----|-----|
 |1|[Lambda Expression](https://github.com/Catch-Java/Java-Theory/blob/main/Theory%20File/Lambda%20Expression.md)|✔|
-|2|[Stream]()|✖|
+|2|[Stream](https://github.com/Catch-Java/Java-Theory/blob/main/Theory%20File/Stream.md)|✖|
