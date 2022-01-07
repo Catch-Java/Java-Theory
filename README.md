@@ -18,7 +18,7 @@
 |1|[Collections Framework](https://github.com/Catch-Java/Java-Theory/blob/main/Theory%20File/Collection%20FrameWork.md)|✔|
 |2|[ArrayList]()|✖|
 |3|[LinkedList]()|✖|
-|4|[Stack]()|✖|
+|4|[Stack](https://github.com/Catch-Java/Java-Theory/blob/main/Theory%20File/Stack.md)|✔|
 |5|[Queue]()|✖|
 |6|[PriorityQueue](https://github.com/Catch-Java/Java-Theory/blob/main/Theory%20File/Priority%20Queue.md)|✔|
 |7|[Deque]()|✖|
